@@ -10,6 +10,8 @@ class PcapDnsproxy < Formula
     (etc/"pcap_dnsproxy").install Dir["macOS/*.{conf,sh,ini,txt}"]
     prefix.install "macOS/pcap_dnsproxy.service.plist"
   end
+  
+  plist_options :startup => true, :manual => "sudo #{HOMEBREW_PREFIX}/opt/pcap_dnsproxy/bin/Pcap_DNSProxy -c #{HOMEBREW_PREFIX}/etc/pcap_dnsproxy/"
 
   test do
     (testpath/"pcap_dnsproxy").mkpath
