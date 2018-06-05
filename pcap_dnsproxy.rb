@@ -1,9 +1,9 @@
 class PcapDnsproxy < Formula
   desc "Pcap_DNSProxy, a local DNS server based on WinPcap and LibPcap"
   homepage "https://github.com/chengr28/Pcap_DNSProxy"
-  url "https://github.com/chengr28/Pcap_DNSProxy/releases/download/v0.4.9.7/Pcap_DNSProxy-0.4.9.7-bin.zip"
-  version "0.4.9.7"
-  sha256 "cca0ebc17069914f4b900bae6cc0dfd5b07b28c40ffaba0913c6be225d0924ad"
+  url "https://github.com/chengr28/Pcap_DNSProxy/releases/download/v0.4.9.8/Pcap_DNSProxy-0.4.9.8-bin.zip"
+  version "0.4.9.8"
+  sha256 "6d7b25b2bc719bac0e37be5ab890f282f1f4cc76470fbcc4e0e5ad49ab11a834"
 
   def install
     bin.install "macOS/Pcap_DNSProxy"
