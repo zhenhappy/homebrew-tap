@@ -1,4 +1,4 @@
-class unu < Formula
+class Unu < Formula
   desc "U.NU is a free URL Shortener Service."
   homepage "https://u.nu"
   url "https://u.nu/unu"
